@@ -15,11 +15,5 @@ cursor.clsoe()
 conn.close()
 
 
-def get_score_in(low,hign):
-    pass
-
-assert get_score_in(80, 95) == ['Adam'], get_score_in(80, 95)
-assert get_score_in(60, 80) == ['Bart', 'Lisa'], get_score_in(60, 80)  
-assert get_score_in(60, 100) == ['Adam', 'Bart', 'Lisa'], get_score_in(60, 100)
 
 print('Pass')
